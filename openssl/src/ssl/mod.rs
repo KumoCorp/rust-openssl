@@ -69,7 +69,6 @@ use crate::ex_data::Index;
 use crate::hash::MessageDigest;
 #[cfg(any(ossl110, libressl))]
 use crate::nid::Nid;
-#[cfg(ossl300)]
 use crate::pkey::{HasPrivate, PKey, PKeyRef, Params, Private, Public};
 #[cfg(not(osslconf = "OPENSSL_NO_SRTP"))]
 use crate::srtp::{SrtpProtectionProfile, SrtpProtectionProfileRef};
